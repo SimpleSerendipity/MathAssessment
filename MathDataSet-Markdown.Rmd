@@ -1,0 +1,28 @@
+---
+title: "MathDataSet"
+author: "Shiyue"
+date: "June 16, 2017"
+output: html_document
+---
+option+cammand+i
+```{r}
+## Set Working Directory
+setwd("/Users/shiyuezheng/Desktop/Charles")
+```
+
+```{r}
+##Read file 
+read.csv("MathDataset-V1.csv")
+```
+## Attempt & Error Msg
+1.group_by(.,Anon Student Id)
+Error: unexpected symbol in "group_by(.,Anon Student"
+2. q.number<-group_by(.,Anon Student Id)
+Error: unexpected symbol in "q.number<-group_by(.,Anon Student"
+3. q.number<-group_by(MathDataset-V1,Anon Student Id)
+Error: unexpected symbol in "q.number<-group_by(MathDataset-V1,Anon Student"
+```{r}
+##Create a variable called q.number
+
+```
+
