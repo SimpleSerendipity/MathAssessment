@@ -8,6 +8,7 @@ option+cammand+i
 ```{r}
 ## Set Working Directory
 setwd("/Users/shiyuezheng/Desktop/Charles")
+lalalala
 ```
 
 ```{r}
