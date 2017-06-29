@@ -13,6 +13,8 @@ setwd("/Users/shiyuezheng/Desktop/Charles")
 ```{r}
 ##Read file 
 read.csv("MathDataset-V1.csv")
+#Read total data
+data <- read.csv("~/Desktop/Charles/MathAssessmentDataset-Original.csv", header = TRUE)
 ```
 ## Attempt & Error Msg
 1.group_by(.,Anon Student Id)
